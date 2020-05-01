@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { globalAgent } from 'http';
 import GlobalStyle from './styles/global';
+import SignIn from './pages/SignIn';
 
 const App: React.FC = () => (
   <>
-    <h1>Hello!</h1>
+    <SignIn />
     <GlobalStyle />
   </>
 );
