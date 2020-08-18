@@ -123,7 +123,7 @@ const Profile: React.FC = () => {
           updateUser(response.data);
           addToast({
             type: 'success',
-            title: 'Avatar atualizado com suceso',
+            title: 'Avatar atualizado com sucesso!',
           });
         });
       }
