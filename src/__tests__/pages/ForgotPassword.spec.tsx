@@ -25,7 +25,7 @@ jest.mock('../../hooks/toast', () => {
   };
 });
 
-describe('ResetPassword Page', () => {
+describe('ForgotPassword Page', () => {
   beforeEach(() => {
     mockedHistoryPush.mockClear();
     mockedAddToast.mockClear();
